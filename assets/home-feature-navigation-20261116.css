@@ -1,0 +1,7 @@
+/* Equal homepage Project Work images and explicit Home navigation. */
+.project-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.project-feature-grid>figure{min-width:0;margin:0}
+.project-feature-grid>figure>.photo-button{aspect-ratio:16/10;width:100%;padding:0;border:0}
+.project-feature-grid figcaption{padding-top:16px;font-size:16px;font-weight:500;line-height:1.5}
+@media(min-width:851px) and (max-width:1000px){.site-header{height:78px;padding:0 24px}.brand img{width:145px}.header-cta{display:none}.main-nav{display:none;position:absolute;top:77px;left:0;right:0;padding:18px 24px 28px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:0}.main-nav.is-open{display:flex}.main-nav a{padding:12px 0;width:100%;font-size:16px}.main-nav .mobile-contact{display:block}.menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:6px;background:transparent;border:0;padding:8px;width:35px;height:35px}.menu-toggle span{height:1px;width:23px;background:var(--ink)}}
+@media(max-width:600px){.project-feature-grid{grid-template-columns:1fr;gap:28px}.project-feature-grid>figure>.photo-button{aspect-ratio:16/10}.project-feature-grid figcaption{padding-top:12px;font-size:14px}}

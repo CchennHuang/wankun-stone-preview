@@ -1,0 +1,6 @@
+/* Numbered subtitle descriptions match How We Work. */
+.communication-grid p,.craft-index-description{font-size:13px}
+.craft-index a{row-gap:0}
+.craft-index-title{margin:var(--numbered-subtitle-gap) 0 15px}
+.craft-index-description{grid-column:1/-1;grid-row:3;margin:0}
+@media(max-width:600px){.communication-grid p,.craft-index-description{font-size:12px}.craft-index-title{margin-bottom:12px}}

@@ -1,0 +1,7 @@
+/* Shared gallery heading hierarchy, including the first group. */
+.craft-section,.craft-index+.craft-section{padding-top:42px}
+.craft-section .craft-heading,.craft-index+.craft-section .craft-heading{margin-bottom:28px}
+.craft-section .craft-heading .eyebrow,.craft-index+.craft-section .craft-heading .eyebrow{display:block;margin-bottom:16px}
+.craft-section .craft-heading>p,.craft-index+.craft-section .craft-heading>p{margin-top:0;font-size:14px;line-height:1.8}
+@media(max-width:800px){.craft-section .craft-heading>p,.craft-index+.craft-section .craft-heading>p{margin-top:16px}}
+@media(max-width:600px){.craft-section,.craft-index+.craft-section{padding-top:30px}.craft-section .craft-heading,.craft-index+.craft-section .craft-heading{margin-bottom:22px}.craft-section .craft-heading>p,.craft-index+.craft-section .craft-heading>p{font-size:13px}}

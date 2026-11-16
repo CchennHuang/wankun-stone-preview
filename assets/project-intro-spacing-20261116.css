@@ -1,0 +1,8 @@
+/* All page introductions share the same spacing tokens. */
+.page-intro{--intro-top:70px;--intro-bottom:55px;--intro-title-gap:27px;padding-top:var(--intro-top);padding-bottom:var(--intro-bottom)}
+.page-intro h1{margin:var(--intro-title-gap) 0}
+@media(min-width:601px) and (max-width:850px){.page-intro{--intro-top:65px;--intro-bottom:65px}}
+@media(max-width:600px){.page-intro{--intro-top:42px;--intro-bottom:35px;--intro-title-gap:23px}}
+.craft-index+.craft-section{padding-top:0}
+.craft-index+.craft-section .craft-heading{margin-bottom:8px}
+.craft-index+.craft-section .craft-heading .eyebrow{display:none}

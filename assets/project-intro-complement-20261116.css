@@ -1,0 +1,4 @@
+/* Shared page-intro scale and spacing, including Projects. */
+.page-intro{--page-title-size:clamp(46px,5.7vw,88px);padding-top:70px;padding-bottom:55px}
+.page-intro h1{font-size:var(--page-title-size)}
+@media(max-width:600px){.page-intro{--page-title-size:45px;padding-top:42px;padding-bottom:35px}}
